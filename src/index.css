@@ -1,0 +1,50 @@
+
+*{
+  font-family: inter, serif;
+  
+  margin: 0;
+  
+  
+}
+
+.navbar{
+ 
+  display: flex;
+  align-items:center;
+  height: 90px;
+  background-color: black;
+  color: lightseagreen;
+  padding-left: 2rem;
+  width: 600px;
+
+
+}
+.header-text{
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.maindiv{
+  background: rgb(0, 0, 0);
+  padding-left: 2rem;
+  color:azure;
+  width:600px;
+  background-image: url(./assets/halfreactimg.jpg);
+  background-size: 24%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 26rem;
+  
+  
+}
+.ulgeneral{
+  margin-top: 2rem;
+  
+}
+.litext{
+  margin-block: 18px;
+}
+.ulgeneral > li::marker{
+  color:#61DAfb;
+  font-size:1.5rem;
+}
